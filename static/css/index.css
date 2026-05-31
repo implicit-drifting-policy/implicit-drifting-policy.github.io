@@ -99,6 +99,37 @@ body {
     overflow-wrap: break-word;
 }
 
+.publication-author-lines {
+  margin-top: 1.55rem;
+  line-height: 1.35;
+}
+
+.publication-affiliations {
+  margin-top: 0.25rem;
+  line-height: 1.3;
+}
+
+.author-line,
+.affiliation-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 0.28rem;
+  row-gap: 0;
+  text-align: center;
+}
+
+.author-line .author-block,
+.affiliation-line .author-block {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.affiliation-line {
+  column-gap: 1.8rem;
+}
+
 .publication-venue {
     color: #214943;
     font-weight: bold;
@@ -407,7 +438,22 @@ pre {
   }
 
   .publication-authors .author-block {
-    display: block;
+    display: inline-block;
+  }
+
+  .publication-author-lines {
+    margin-top: 1.25rem;
+    line-height: 1.45;
+  }
+
+  .publication-affiliations {
+    line-height: 1.45;
+  }
+
+  .author-line,
+  .affiliation-line {
+    column-gap: 0.35rem;
+    padding: 0 0.5rem;
   }
 
   .desktop-title-tail {

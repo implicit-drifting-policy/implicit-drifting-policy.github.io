@@ -1,28 +1,23 @@
-# Implicit Drifting Policy Homepage
+<div align="center">
 
-Website source files for the Implicit Drifting Policy project page.
+# Implicit Drifting Policy: One-Step Action Generation via Conditional Expert Geometry
 
-## Local preview
+**Under Review**
 
-This is a static GitHub Pages site. The files served online are the same root
-`index.html`, `static/`, and `juxtapose/` files in this repository.
+[Zemin Yang](https://yizhifengyeyzm.github.io/)<sup>1</sup>,
+[Yaoyu He](https://eniverz.github.io/profile)<sup>1</sup>,
+[Yiming Zhong](https://ymzhong66.github.io/)<sup>1</sup>,
+Yuhao Zhang<sup>2</sup>,
+[Xinge Zhu](http://xingezhu.me/aboutme.html)<sup>3</sup>,
+[Yao Mu](https://yaomarkmu.github.io/)<sup>2</sup>,
+[Qingqiu Huang](https://qqhuang.cn/)<sup>4</sup>,
+[Yuexin Ma](https://yuexinma.me/)<sup>1</sup>
 
-From PowerShell:
+<sup>1</sup>ShanghaiTech University,
+<sup>2</sup>Shanghai Jiao Tong University,
+<sup>3</sup>The Chinese University of Hong Kong,
+<sup>4</sup>Morphi Robot
 
-```powershell
-cd "D:\CoRL 2026\demo_page"
-npm.cmd install
-npm.cmd run dev
-```
+[[Project Page]](https://implicit-drifting-policy.github.io/)
 
-Then open:
-
-```text
-http://127.0.0.1:5173/
-```
-
-Keep the terminal running while editing. Vite will refresh the page after most
-HTML, CSS, and JavaScript changes.
-
-If port `5173` is already occupied, stop the old preview terminal first with
-`Ctrl+C`, then run `npm.cmd run dev` again.
+</div>
