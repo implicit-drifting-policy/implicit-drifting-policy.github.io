@@ -1,0 +1,13 @@
+{
+  "name": "implicit-drifting-policy-homepage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort"
+  },
+  "devDependencies": {
+    "vite": "^7.2.0"
+  }
+}
